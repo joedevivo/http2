@@ -1,0 +1,11 @@
+%% -*- mode: erlang -*-
+{application, http2, [
+    {description, "common code for http/2 servers and clients"},
+    {vsn, "0.0.1"},
+    {applications, [
+        kernel,
+        stdlib,
+        lager,
+        hpack
+    ]}
+]}.
